@@ -1,0 +1,100 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #a23646;
+    color: white;
+}
+
+header div {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+}
+
+header ul li:hover {
+    background-color: #8d313a;
+}
+
+article {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.about {
+    width: 80%;
+    margin-right: 30px;
+}
+
+.photo-with-desc {
+    width: 20%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.photo-with-desc div {
+    padding: 20px;
+    margin-left: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.shakespeare {
+    width: 80%;
+}
+
+.photo-with-desc tr {
+    text-align: left;
+    vertical-align: top;
+}
+
+.similar-authors {
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.similar-authors img {
+    height: 200px;
+}
+
+.similar-authors div {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width: fit-content;
+}
+
+.similar-authors p {
+    margin-bottom: 0;
+}
