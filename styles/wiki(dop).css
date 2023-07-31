@@ -9,6 +9,14 @@ body {
 header {
     background-color: #a23646;
     color: white;
+    position: sticky;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 header div {

@@ -10,7 +10,7 @@
 
 <body>
 
-    <header>
+    <header id="stickyHeader">
         <div>
             <h1>Writers</h1>
             <ul>
@@ -152,20 +152,20 @@
 
         </div>
 
-        <!-- <div class="left-info">
-            <h1>William Shakespeare</h1>
-            <hr>
-        </div>
-
-        <div class="right-info">
-
-        </div>
-
-        <div class="similar-authors">
-
-        </div> -->
-
     </article>
+
+    <script>
+
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("stickyHeader");
+
+        function myFunction() {
+            if (window.pageYOffset > 0) header.classList.add("sticky");
+            else header.classList.remove("sticky");
+        }
+
+    </script>
 
 </body>
 
